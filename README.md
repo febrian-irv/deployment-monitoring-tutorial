@@ -17,3 +17,6 @@ Jadi saya coba untuk menjawab pertanyaannya yang mungkin dapat saya jawab.
 
 #### 1. What is the difference between Rolling Update and Recreate deployment strategy?
 Rolling update mendeploy tanpa downtime karena dijalankan sekaligus menggantikan aplikasi yang lama.sedangkan recreate dmendeploy dengan menghapus instance lama lalu membuat yang baru.
+
+#### 4. What do you think are the benefits of using Kubernetes manifest files? Recall your experience in deploying the app manually and compare it to your experience when deploying the same app by applying the manifest files (i.e., invoking `kubectl apply -f` command) to the cluster.
+Adanya declarative config sehingga terdapat konsistensi dan dapat diatur dengan version control, scalabaility yang baik karena dapat mendefine resource, reusable karena dapat berbentuk template, dapat serve sebagai documentation.
